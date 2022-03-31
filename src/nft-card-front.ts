@@ -313,7 +313,7 @@ export class NftCardFrontTemplate extends LitElement {
   private getButtonTemplate() {
     return html`
       <button @click="${(e: any) => this.eventHandler(e, 'view')}">
-        buy this item ❯
+        Buy NFT ❯
       </button>
     `
   }
